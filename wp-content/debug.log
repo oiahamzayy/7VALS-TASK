@@ -1,0 +1,175 @@
+[02-Jul-2025 20:43:45 UTC] PHP Notice:  Function wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\laragon\www\7vals-task\wp-includes\functions.php on line 6121
+[02-Jul-2025 20:45:13 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in C:\laragon\www\7vals-task\wp-includes\functions.php on line 6121
+[02-Jul-2025 20:50:24 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:50:24 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SAM_NEWSLETTER_PLUGIN_URL" in C:\laragon\www\7vals-task\wp-content\plugins\sam-newsletter\sam-newsletter.php:124
+Stack trace:
+#0 C:\laragon\www\7vals-task\wp-includes\class-wp-hook.php(324): SAM_Newsletter_Plugin->register_frontend_assets('')
+#1 C:\laragon\www\7vals-task\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\7vals-task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\7vals-task\wp-includes\script-loader.php(2299): do_action('wp_enqueue_scri...')
+#4 C:\laragon\www\7vals-task\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\laragon\www\7vals-task\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\laragon\www\7vals-task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\laragon\www\7vals-task\wp-includes\general-template.php(3192): do_action('wp_head')
+#8 C:\laragon\www\7vals-task\wp-content\themes\assetsonar\header.php(15): wp_head()
+#9 C:\laragon\www\7vals-task\wp-includes\template.php(810): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\7vals-task\wp-includes\template.php(745): load_template('C:\\laragon\\www\\...', true, Array)
+#11 C:\laragon\www\7vals-task\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\laragon\www\7vals-task\wp-content\themes\assetsonar\page.php(15): get_header()
+#13 C:\laragon\www\7vals-task\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#14 C:\laragon\www\7vals-task\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#15 C:\laragon\www\7vals-task\index.php(17): require('C:\\laragon\\www\\...')
+#16 {main}
+  thrown in C:\laragon\www\7vals-task\wp-content\plugins\sam-newsletter\sam-newsletter.php on line 124
+[02-Jul-2025 20:50:42 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:51:12 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:51:12 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SAM_NEWSLETTER_PLUGIN_URL" in C:\laragon\www\7vals-task\wp-content\plugins\sam-newsletter\sam-newsletter.php:124
+Stack trace:
+#0 C:\laragon\www\7vals-task\wp-includes\class-wp-hook.php(324): SAM_Newsletter_Plugin->register_frontend_assets('')
+#1 C:\laragon\www\7vals-task\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\7vals-task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\7vals-task\wp-includes\script-loader.php(2299): do_action('wp_enqueue_scri...')
+#4 C:\laragon\www\7vals-task\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\laragon\www\7vals-task\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\laragon\www\7vals-task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\laragon\www\7vals-task\wp-includes\general-template.php(3192): do_action('wp_head')
+#8 C:\laragon\www\7vals-task\wp-content\themes\assetsonar\header.php(15): wp_head()
+#9 C:\laragon\www\7vals-task\wp-includes\template.php(810): require_once('C:\\laragon\\www\\...')
+#10 C:\laragon\www\7vals-task\wp-includes\template.php(745): load_template('C:\\laragon\\www\\...', true, Array)
+#11 C:\laragon\www\7vals-task\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\laragon\www\7vals-task\wp-content\themes\assetsonar\page.php(15): get_header()
+#13 C:\laragon\www\7vals-task\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#14 C:\laragon\www\7vals-task\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#15 C:\laragon\www\7vals-task\index.php(17): require('C:\\laragon\\www\\...')
+#16 {main}
+  thrown in C:\laragon\www\7vals-task\wp-content\plugins\sam-newsletter\sam-newsletter.php on line 124
+[02-Jul-2025 20:51:41 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:51:52 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:52:42 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:53:53 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:54:11 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:54:11 UTC] SAM Newsletter: Frontend assets registered
+[02-Jul-2025 20:54:22 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:54:24 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:54:24 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:54:25 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:54:25 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:54:25 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:54:25 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:54:25 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:54:25 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:54:25 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:54:25 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:54:25 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:54:26 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:54:36 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:55:27 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:56:29 UTC] SAM Newsletter: register_block called
+[02-Jul-2025 20:56:29 UTC] SAM Newsletter: Block registered successfully
+[02-Jul-2025 20:56:29 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:56:29 UTC] SAM Newsletter: Frontend assets registered
+[02-Jul-2025 20:56:29 UTC] SAM Newsletter: render_block called
+[02-Jul-2025 20:56:29 UTC] SAM Newsletter: Attributes: Array
+(
+    [title] => Subscribe to Our Newsletter
+    [description] => Stay updated with our latest news and updates.
+    [buttonText] => Subscribe
+    [showTitle] => 1
+    [showDescription] => 1
+)
+
+[02-Jul-2025 20:56:29 UTC] SAM Newsletter: Assets enqueued in render_block
+[02-Jul-2025 20:56:29 UTC] SAM Newsletter: Block HTML generated, length: 2474
+[02-Jul-2025 20:56:29 UTC] SAM Newsletter: render_block called
+[02-Jul-2025 20:56:29 UTC] SAM Newsletter: Attributes: Array
+(
+    [title] => Subscribe to Our Newsletter
+    [description] => Stay updated with our latest news and updates.
+    [buttonText] => Subscribe
+    [showTitle] => 1
+    [showDescription] => 1
+)
+
+[02-Jul-2025 20:56:29 UTC] SAM Newsletter: Assets enqueued in render_block
+[02-Jul-2025 20:56:29 UTC] SAM Newsletter: Block HTML generated, length: 2474
+[02-Jul-2025 20:56:33 UTC] SAM Newsletter: register_block called
+[02-Jul-2025 20:56:33 UTC] SAM Newsletter: Block registered successfully
+[02-Jul-2025 20:56:33 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:56:33 UTC] SAM Newsletter: handle_subscription called
+[02-Jul-2025 20:56:36 UTC] SAM Newsletter: register_block called
+[02-Jul-2025 20:56:36 UTC] SAM Newsletter: Block registered successfully
+[02-Jul-2025 20:56:36 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: register_block called
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: Block registered successfully
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: register_block called
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: Block registered successfully
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: render_block called
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: Attributes: Array
+(
+    [title] => Subscribe to Our Newsletter
+    [description] => Stay updated with our latest news and updates.
+    [buttonText] => Subscribe
+    [showTitle] => 1
+    [showDescription] => 1
+)
+
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: Assets enqueued in render_block
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: Block HTML generated, length: 2498
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: render_block called
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: Attributes: Array
+(
+    [title] => Subscribe to Our Newsletter
+    [description] => Stay updated with our latest news and updates.
+    [buttonText] => Subscribe
+    [showTitle] => 1
+    [showDescription] => 1
+)
+
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: Assets enqueued in render_block
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: Block HTML generated, length: 2498
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: render_block called
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: Attributes: Array
+(
+    [title] => Subscribe to Our Newsletter
+    [description] => Stay updated with our latest news and updates.
+    [buttonText] => Subscribe
+    [showTitle] => 1
+    [showDescription] => 1
+)
+
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: Assets enqueued in render_block
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: Block HTML generated, length: 2498
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: enqueue_block_editor_assets called
+[02-Jul-2025 20:56:39 UTC] SAM Newsletter: Block editor script enqueued
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: register_block called
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Block registered successfully
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: register_block called
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Block registered successfully
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: register_block called
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Block registered successfully
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: register_block called
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Block registered successfully
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: register_block called
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Block registered successfully
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: register_block called
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Block registered successfully
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: register_block called
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Block registered successfully
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: register_block called
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Block registered successfully
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: register_block called
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Block registered successfully
+[02-Jul-2025 20:56:40 UTC] SAM Newsletter: Plugin initialized
+[02-Jul-2025 20:56:41 UTC] SAM Newsletter: register_block called
+[02-Jul-2025 20:56:41 UTC] SAM Newsletter: Block registered successfully
+[02-Jul-2025 20:56:41 UTC] SAM Newsletter: Plugin initialized
